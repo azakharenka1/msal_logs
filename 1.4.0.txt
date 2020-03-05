@@ -1,0 +1,359 @@
+2020-03-05 11:16:18.617 W/ee.mobile.debu: Accessing hidden field Lsun/misc/Unsafe;->theUnsafe:Lsun/misc/Unsafe; (light greylist, reflection)
+2020-03-05 11:16:18.772 D/OnePlusJankManager:  Chor uploadMDM JANK_TYPE_ONCE mViewTitle = tedee.mobile.debug/pl.predica.nofo.home.activity.LoginActivity--- jank level = 1
+2020-03-05 11:16:18.806 I/PublicClientApplication:initializeApplication:  [2020-03-05 08:16:18 - {"thread_id":"2","correlation_id":"UNSET"}] Create new public client application. Android 28
+2020-03-05 11:16:18.807 V/SharedPreferencesFileManager:  [2020-03-05 08:16:18 - {"thread_id":"2","correlation_id":"UNSET"}] Init with storage helper:  SharedPreferencesFileManager Android 28
+    
+    [          1583396178.819 10500:10576 V/com.microsoft.identity.client.internal.controllers.MSALControllerFactory:brokerEligible [2020-03-05 08:16:18 - {"thread_id":"566","correlation_id":"UNSET"}] Eligible to call broker? [false] Android 28
+    
+    [          1583396178.821 10500:10576 V/com.microsoft.identity.client.internal.controllers.MSALControllerFactory:brokerEligible [2020-03-05 08:16:18 - {"thread_id":"566","correlation_id":"UNSET"}] App does not ask for Broker or the authority is not AAD authority. Android 28
+2020-03-05 11:16:18.823 I/CommandDispatcher:beginInteractive:  [2020-03-05 08:16:18 - {"thread_id":"566","correlation_id":"UNSET"}] Beginning interactive request Android 28
+2020-03-05 11:16:18.825 V/CommandDispatcher:initializeDiagnosticContext:  [2020-03-05 08:16:18 - {"thread_id":"567","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Initialized new DiagnosticContext Android 28
+2020-03-05 11:16:18.827 I/CommandDispatcher:beginInteractive:  [2020-03-05 08:16:18 - {"thread_id":"567","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Requested 1 scopes Android 28
+2020-03-05 11:16:18.833 I/CommandDispatcher:beginInteractive:  [2020-03-05 08:16:18 - {"thread_id":"567","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Using authorization agent: DEFAULT Android 28
+2020-03-05 11:16:18.835 I/InteractiveTokenCommand:execute:  [2020-03-05 08:16:18 - {"thread_id":"567","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Executing interactive token command... Android 28
+2020-03-05 11:16:18.836 V/LocalMSALController:acquireToken:  [2020-03-05 08:16:18 - {"thread_id":"567","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Acquiring token... Android 28
+2020-03-05 11:16:18.837 V/OperationParameters:validate:  [2020-03-05 08:16:18 - {"thread_id":"567","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Validating operation params... Android 28
+2020-03-05 11:16:18.847 I/LocalMSALController:AcquireTokenOperationParameters:  [2020-03-05 08:16:18 - {"thread_id":"567","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] {"mAuthorizationAgent":"DEFAULT","mExtraScopesToConsent":[],"mOpenIdConnectPromptParameter":"SELECT_ACCOUNT","webViewZoomControlsEnabled":true,"webViewZoomEnabled":true,"clientId":"d957d40e-0b1a-4495-8f23-e449c916a533","mApplicationName":"tedee.mobile.debug","mApplicationVersion":"2-debug","mAuthenticationScheme":{},"mAuthority":{},"mForceRefresh":false,"mScopes":["https://nofodev2c.onmicrosoft.com/api/user_impersonation","openid","offline_access","profile"],"mSdkType":"MSAL","mSdkVersion":"1.4.0","redirectUri":"msald957d40e-0b1a-4495-8f23-e449c916a533://auth"} Android 28
+2020-03-05 11:16:18.853 V/Authority:getKnownAuthorityResult:  [2020-03-05 08:16:18 - {"thread_id":"567","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Getting known authority result... Android 28
+2020-03-05 11:16:18.854 V/Authority:getKnownAuthorityResult:  [2020-03-05 08:16:18 - {"thread_id":"567","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Performing cloud discovery Android 28
+2020-03-05 11:16:18.856 I/DpmTcmClient: RegisterTcmMonitor from: $Proxy0
+2020-03-05 11:16:18.859 I/DpmTcmClient: connected to TCM
+2020-03-05 11:16:18.858 V/Authority:performCloudDiscovery:  [2020-03-05 08:16:18 - {"thread_id":"567","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Performing cloud discovery... Android 28
+2020-03-05 11:16:18.886 V/Authority:isKnownAuthority:  [2020-03-05 08:16:18 - {"thread_id":"567","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Authority is known to developer? [true] Android 28
+2020-03-05 11:16:18.889 V/Authority:isKnownAuthority:  [2020-03-05 08:16:18 - {"thread_id":"567","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Authority is known to Microsoft? [false] Android 28
+    
+    [          1583396178.891 10500:10576 V/com.microsoft.identity.common.internal.authorities.AzureActiveDirectoryB2CAuthority:cre [2020-03-05 08:16:18 - {"thread_id":"567","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Creating OAuth2Configuration Android 28
+2020-03-05 11:16:18.893 V/OpenIdProviderConfigurationClient:loadOpenIdProviderConfiguration:  [2020-03-05 08:16:18 - {"thread_id":"567","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Config URL is valid. Android 28
+2020-03-05 11:16:19.450 W/ConfigHelper: switchStorage: common.helper
+2020-03-05 11:16:19.528 I/WM-WorkerWrapper: Worker result SUCCESS for Work [ id=b397cbf1-c266-4506-91dc-7ba7beca575e, tags={ pl.predica.nofo.home.service.workmanager.RenewCertificatesWorkerRx } ]
+2020-03-05 11:16:19.706 V/BrowserSelector:  [2020-03-05 08:16:19] Found 1 browsers. Android 28
+2020-03-05 11:16:19.716 V/BrowserSelector:  [2020-03-05 08:16:19] Found 1 browsers. Android 28
+2020-03-05 11:16:19.717 V/BrowserSelector:  [2020-03-05 08:16:19 - {"thread_id":"567","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Select the browser to launch. Android 28
+2020-03-05 11:16:19.718 I/BrowserSelector:  [2020-03-05 08:16:19 - {"thread_id":"567","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Browser's package name: com.android.chrome version: 80.0.3987.99 Android 28
+2020-03-05 11:16:19.719 I/AuthorizationStrategyFactory:  [2020-03-05 08:16:19 - {"thread_id":"567","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Use browser for authorization. Android 28
+2020-03-05 11:16:19.721 I/MicrosoftStsOAuth2Strategy:createAuthorizationRequestBuilder:  [2020-03-05 08:16:19 - {"thread_id":"567","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Creating AuthorizationRequestBuilder Android 28
+2020-03-05 11:16:19.723 I/MicrosoftStsOAuth2Strategy:createAuthorizationRequestBuilder:  [2020-03-05 08:16:19 - {"thread_id":"567","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Creating AuthorizationRequestBuilder... Android 28
+2020-03-05 11:16:19.733 V/BrowserSelector:  [2020-03-05 08:16:19] Found 1 browsers. Android 28
+2020-03-05 11:16:19.734 V/BrowserSelector:  [2020-03-05 08:16:19 - {"thread_id":"567","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Select the browser to launch. Android 28
+2020-03-05 11:16:19.735 I/BrowserSelector:  [2020-03-05 08:16:19 - {"thread_id":"567","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Browser's package name: com.android.chrome version: 80.0.3987.99 Android 28
+2020-03-05 11:16:19.735 I/BrowserAuthorizationStrategy:requestAuthorization:  [2020-03-05 08:16:19 - {"thread_id":"567","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] CustomTabsService is supported. Android 28
+2020-03-05 11:16:19.747 I/CustomTabsManager:  [2020-03-05 08:16:19 - {"thread_id":"2","correlation_id":"UNSET"}] CustomTabsService is connected Android 28
+2020-03-05 11:16:19.796 W/ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@c616afd
+2020-03-05 11:16:19.846 V/AuthorizationFragment#onCreate:  [2020-03-05 08:16:19 - {"thread_id":"2","correlation_id":"UNSET"}] Extract state from the intent bundle. Android 28
+2020-03-05 11:16:19.847 V/AuthorizationFragment:setDiagnosticContextForAuthorizationActivity:  [2020-03-05 08:16:19 - {"thread_id":"2","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Initializing diagnostic context for AuthorizationActivity Android 28
+2020-03-05 11:16:20.463 E/SensorManager: unregisterListenerImpl callingApp: tedee.mobile.debug,callingPid:10500,callingUid:10191
+2020-03-05 11:16:22.187 W/ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@c2c286f
+2020-03-05 11:16:22.246 E/SensorManager: registerListenerImpl sensorName:LSM6DS3 Accelerometer,isWakeUpSensor:false,callingApp: tedee.mobile.debug,callingPid:10500,callingUid:10191
+2020-03-05 11:16:22.262 I/BrowserAuthorizationFragment:  [2020-03-05 08:16:22] Received redirect from customTab/browser. Android 28
+2020-03-05 11:16:22.266 I/BrowserAuthorizationFragment:  [2020-03-05 08:16:22 - {"thread_id":"2","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Sending intent to cancel authentication activity Android 28
+2020-03-05 11:16:22.267 I/AuthorizationFragment:  [2020-03-05 08:16:22 - {"thread_id":"2","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Sending result from Authorization Activity, resultCode: 2002 Android 28
+2020-03-05 11:16:22.280 V/LocalMSALController:completeAcquireToken:  [2020-03-05 08:16:22 - {"thread_id":"2","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Completing acquire token... Android 28
+2020-03-05 11:16:22.284 I/CustomTabsManager:  [2020-03-05 08:16:22 - {"thread_id":"2","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] CustomTabsService is unbound. Android 28
+2020-03-05 11:16:22.285 I/MicrosoftStsAuthorizationResultFactory:  [2020-03-05 08:16:22 - {"thread_id":"2","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Error is returned from webview redirect Android 28
+2020-03-05 11:16:22.287 W/LocalMSALController:MicrosoftStsAuthorizationResult:  [2020-03-05 08:16:22 - {"thread_id":"567","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Failure Result Android 28
+2020-03-05 11:16:22.288 W/LocalMSALController:MicrosoftStsAuthorizationResult:  [2020-03-05 08:16:22 - {"thread_id":"567","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Error: access_denied Android 28
+2020-03-05 11:16:22.291 I/LocalMSALController:MicrosoftStsAuthorizationResult:  [2020-03-05 08:16:22 - {"thread_id":"567","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Authorization Status: FAIL Android 28
+2020-03-05 11:16:22.294 I/SharedPreferencesLastRequestTelemetryCache:  [2020-03-05 08:16:22 - {"thread_id":"567","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Clearing all SharedPreferences entries... Android 28
+2020-03-05 11:16:22.298 E/LoginPresenter$signIn: com.microsoft.identity.client.exception.MsalServiceException: access_denied;AADB2C90118: The user has forgotten their password.
+    Correlation ID: 230ad84e-b4fe-4913-97dc-e5f1c65563ad
+    Timestamp: 2020-03-05 08:16:22Z
+    
+        at com.microsoft.identity.client.internal.controllers.MsalExceptionAdapter.msalExceptionFromBaseException(MsalExceptionAdapter.java:74)
+        at com.microsoft.identity.client.SingleAccountPublicClientApplication$3.onError(SingleAccountPublicClientApplication.java:241)
+        at com.microsoft.identity.client.SingleAccountPublicClientApplication$3.onError(SingleAccountPublicClientApplication.java:213)
+        at com.microsoft.identity.common.internal.controllers.CommandDispatcher$3$5.run(CommandDispatcher.java:365)
+        at android.os.Handler.handleCallback(Handler.java:873)
+        at android.os.Handler.dispatchMessage(Handler.java:99)
+        at android.os.Looper.loop(Looper.java:193)
+        at android.app.ActivityThread.main(ActivityThread.java:6863)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:537)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+     Caused by: com.microsoft.identity.common.exception.ServiceException: access_denied;AADB2C90118: The user has forgotten their password.
+    Correlation ID: 230ad84e-b4fe-4913-97dc-e5f1c65563ad
+    Timestamp: 2020-03-05 08:16:22Z
+    
+        at com.microsoft.identity.common.internal.controllers.ExceptionAdapter.exceptionFromAcquireTokenResult(ExceptionAdapter.java:85)
+        at com.microsoft.identity.common.internal.controllers.CommandDispatcher$3.run(CommandDispatcher.java:351)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+        at java.lang.Thread.run(Thread.java:764)
+2020-03-05 11:16:22.302 I/SharedPreferencesLastRequestTelemetryCache:  [2020-03-05 08:16:22 - {"thread_id":"567","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] SharedPreferences cleared. Android 28
+2020-03-05 11:16:22.307 V/SharedPreferencesLastRequestTelemetryCache:  [2020-03-05 08:16:22 - {"thread_id":"567","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Saving Request Telemetry to cache... Android 28
+2020-03-05 11:16:22.323 I/Adreno: QUALCOMM build                   : 365e321, I294de8bafa
+    Build Date                       : 01/08/19
+    OpenGL ES Shader Compiler Version: EV031.25.03.02
+    Local Branch                     : 
+    Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.7.5.R1.09.00.00.464.040
+    Remote Branch                    : NONE
+    Reconstruct Branch               : NOTHING
+2020-03-05 11:16:22.323 I/Adreno: Build Config                     : S L 6.0.7 AArch64
+2020-03-05 11:16:22.326 D/vndksupport: Loading /vendor/lib64/hw/gralloc.msm8996.so from current namespace instead of sphal namespace.
+2020-03-05 11:16:22.330 I/Adreno: PFP: 0x005ff110, ME: 0x005ff066
+2020-03-05 11:16:22.331 I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+2020-03-05 11:16:22.331 I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+2020-03-05 11:16:22.332 I/OpenGLRenderer: Initialized EGL, version 1.4
+2020-03-05 11:16:22.332 D/OpenGLRenderer: Swap behavior 2
+2020-03-05 11:16:22.520 V/AuthorityDeserializer:deserialize:  [2020-03-05 08:16:22 - {"thread_id":"574","correlation_id":"UNSET"}] Type: B2C Android 28
+2020-03-05 11:16:22.522 V/PublicClientApplicationConfigurationFactory:loadDefaultConfiguration:  [2020-03-05 08:16:22 - {"thread_id":"574","correlation_id":"UNSET"}] Loading default configuration Android 28
+2020-03-05 11:16:22.535 V/AuthorityDeserializer:deserialize:  [2020-03-05 08:16:22 - {"thread_id":"574","correlation_id":"UNSET"}] Type: AAD Android 28
+2020-03-05 11:16:22.540 V/AzureActiveDirectoryAudienceDeserializer:deserialize:  [2020-03-05 08:16:22 - {"thread_id":"574","correlation_id":"UNSET"}] Type: AzureADandPersonalMicrosoftAccount Android 28
+2020-03-05 11:16:22.544 V/MsalOAuth2TokenCache:create:  [2020-03-05 08:16:22 - {"thread_id":"574","correlation_id":"UNSET"}] Creating MsalOAuth2TokenCache Android 28
+2020-03-05 11:16:22.547 V/CacheKeyValueDelegate:  [2020-03-05 08:16:22 - {"thread_id":"574","correlation_id":"UNSET"}] Init: CacheKeyValueDelegate Android 28
+2020-03-05 11:16:22.548 V/SharedPreferencesFileManager:  [2020-03-05 08:16:22 - {"thread_id":"574","correlation_id":"UNSET"}] Init with storage helper:  SharedPreferencesFileManager Android 28
+2020-03-05 11:16:22.549 V/SharedPreferencesAccountCredentialCache:  [2020-03-05 08:16:22 - {"thread_id":"574","correlation_id":"UNSET"}] Init: SharedPreferencesAccountCredentialCache Android 28
+2020-03-05 11:16:22.550 V/MsalOAuth2TokenCache:  [2020-03-05 08:16:22 - {"thread_id":"574","correlation_id":"UNSET"}] Init: MsalOAuth2TokenCache Android 28
+    
+    [          1583396182.550 10500:10576 V/com.microsoft.identity.client.internal.controllers.MSALControllerFactory:brokerEligible [2020-03-05 08:16:22 - {"thread_id":"574","correlation_id":"UNSET"}] Eligible to call broker? [false] Android 28
+    
+    [          1583396182.551 10500:10576 V/com.microsoft.identity.client.internal.controllers.MSALControllerFactory:brokerEligible [2020-03-05 08:16:22 - {"thread_id":"574","correlation_id":"UNSET"}] App does not ask for Broker or the authority is not AAD authority. Android 28
+2020-03-05 11:16:22.552 V/CommandDispatcher:submitSilent:  [2020-03-05 08:16:22 - {"thread_id":"574","correlation_id":"UNSET"}] Beginning execution of silent command. Android 28
+2020-03-05 11:16:22.552 V/CommandDispatcher:initializeDiagnosticContext:  [2020-03-05 08:16:22 - {"thread_id":"563","correlation_id":"a1130be6-c5fc-4943-b2e2-73fcc2212a9c"}] Initialized new DiagnosticContext Android 28
+2020-03-05 11:16:22.553 W/LocalMSALController:getDeviceMode:  [2020-03-05 08:16:22 - {"thread_id":"563","correlation_id":"a1130be6-c5fc-4943-b2e2-73fcc2212a9c"}] LocalMSALController is not eligible to use the broker. Do not check sharedDevice mode and return false immediately. Android 28
+2020-03-05 11:16:22.554 V/EstsTelemetry:createLastRequestTelemetryCache:  [2020-03-05 08:16:22 - {"thread_id":"2","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Creating Last Request Telemetry Cache Android 28
+2020-03-05 11:16:22.555 V/SharedPreferencesFileManager:  [2020-03-05 08:16:22 - {"thread_id":"2","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Init: SharedPreferencesFileManager Android 28
+2020-03-05 11:16:22.555 V/SharedPreferencesLastRequestTelemetryCache:  [2020-03-05 08:16:22 - {"thread_id":"2","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Init: SharedPreferencesLastRequestTelemetryCache Android 28
+2020-03-05 11:16:22.556 V/EstsTelemetry:  [2020-03-05 08:16:22 - {"thread_id":"2","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Ests Telemetry cache has been initialized properly. Android 28
+2020-03-05 11:16:22.556 V/PublicClientApplication:  [2020-03-05 08:16:22 - {"thread_id":"2","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Telemetry configuration is null. Telemetry is disabled. Android 28
+2020-03-05 11:16:22.557 W/Telemetry:  [2020-03-05 08:16:22 - {"thread_id":"2","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Telemetry is disabled because the Telemetry context or configuration is null Android 28
+2020-03-05 11:16:22.560 I/PublicClientApplication:initializeApplication:  [2020-03-05 08:16:22 - {"thread_id":"2","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Create new public client application. Android 28
+2020-03-05 11:16:22.562 V/SharedPreferencesFileManager:  [2020-03-05 08:16:22 - {"thread_id":"2","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Init with storage helper:  SharedPreferencesFileManager Android 28
+    
+    [          1583396182.566 10500:10576 V/com.microsoft.identity.client.internal.controllers.MSALControllerFactory:brokerEligible [2020-03-05 08:16:22 - {"thread_id":"566","correlation_id":"UNSET"}] Eligible to call broker? [false] Android 28
+    
+    [          1583396182.567 10500:10576 V/com.microsoft.identity.client.internal.controllers.MSALControllerFactory:brokerEligible [2020-03-05 08:16:22 - {"thread_id":"566","correlation_id":"UNSET"}] App does not ask for Broker or the authority is not AAD authority. Android 28
+2020-03-05 11:16:22.568 I/CommandDispatcher:beginInteractive:  [2020-03-05 08:16:22 - {"thread_id":"566","correlation_id":"UNSET"}] Beginning interactive request Android 28
+2020-03-05 11:16:22.569 V/CommandDispatcher:initializeDiagnosticContext:  [2020-03-05 08:16:22 - {"thread_id":"567","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Initialized new DiagnosticContext Android 28
+2020-03-05 11:16:22.570 I/CommandDispatcher:beginInteractive:  [2020-03-05 08:16:22 - {"thread_id":"567","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Requested 1 scopes Android 28
+2020-03-05 11:16:22.572 I/CommandDispatcher:beginInteractive:  [2020-03-05 08:16:22 - {"thread_id":"567","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Using authorization agent: DEFAULT Android 28
+2020-03-05 11:16:22.573 I/InteractiveTokenCommand:execute:  [2020-03-05 08:16:22 - {"thread_id":"567","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Executing interactive token command... Android 28
+2020-03-05 11:16:22.575 V/LocalMSALController:acquireToken:  [2020-03-05 08:16:22 - {"thread_id":"567","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Acquiring token... Android 28
+2020-03-05 11:16:22.576 V/OperationParameters:validate:  [2020-03-05 08:16:22 - {"thread_id":"567","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Validating operation params... Android 28
+2020-03-05 11:16:22.586 I/LocalMSALController:AcquireTokenOperationParameters:  [2020-03-05 08:16:22 - {"thread_id":"567","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] {"mAuthorizationAgent":"DEFAULT","mExtraScopesToConsent":[],"mOpenIdConnectPromptParameter":"SELECT_ACCOUNT","webViewZoomControlsEnabled":true,"webViewZoomEnabled":true,"clientId":"d957d40e-0b1a-4495-8f23-e449c916a533","mApplicationName":"tedee.mobile.debug","mApplicationVersion":"2-debug","mAuthenticationScheme":{},"mAuthority":{},"mForceRefresh":false,"mScopes":["https://nofodev2c.onmicrosoft.com/api/user_impersonation","openid","offline_access","profile"],"mSdkType":"MSAL","mSdkVersion":"1.4.0","redirectUri":"msald957d40e-0b1a-4495-8f23-e449c916a533://auth"} Android 28
+2020-03-05 11:16:22.589 V/Authority:getKnownAuthorityResult:  [2020-03-05 08:16:22 - {"thread_id":"567","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Getting known authority result... Android 28
+2020-03-05 11:16:22.591 V/Authority:getKnownAuthorityResult:  [2020-03-05 08:16:22 - {"thread_id":"567","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Performing cloud discovery Android 28
+2020-03-05 11:16:22.597 V/Authority:performCloudDiscovery:  [2020-03-05 08:16:22 - {"thread_id":"567","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Performing cloud discovery... Android 28
+2020-03-05 11:16:22.598 V/Authority:isKnownAuthority:  [2020-03-05 08:16:22 - {"thread_id":"567","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Authority is known to developer? [true] Android 28
+2020-03-05 11:16:22.599 V/Authority:isKnownAuthority:  [2020-03-05 08:16:22 - {"thread_id":"567","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Authority is known to Microsoft? [false] Android 28
+    
+    [          1583396182.600 10500:10576 V/com.microsoft.identity.common.internal.authorities.AzureActiveDirectoryB2CAuthority:cre [2020-03-05 08:16:22 - {"thread_id":"567","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Creating OAuth2Configuration Android 28
+2020-03-05 11:16:22.602 V/OpenIdProviderConfigurationClient:loadOpenIdProviderConfiguration:  [2020-03-05 08:16:22 - {"thread_id":"567","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Config URL is valid. Android 28
+2020-03-05 11:16:22.760 I/AuthorizationFragment#onDestroy:  [2020-03-05 08:16:22 - {"thread_id":"2","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] N/A Android 28
+2020-03-05 11:16:22.836 V/BrowserSelector:  [2020-03-05 08:16:22] Found 1 browsers. Android 28
+2020-03-05 11:16:22.844 V/BrowserSelector:  [2020-03-05 08:16:22] Found 1 browsers. Android 28
+2020-03-05 11:16:22.845 V/BrowserSelector:  [2020-03-05 08:16:22 - {"thread_id":"567","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Select the browser to launch. Android 28
+2020-03-05 11:16:22.847 I/BrowserSelector:  [2020-03-05 08:16:22 - {"thread_id":"567","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Browser's package name: com.android.chrome version: 80.0.3987.99 Android 28
+2020-03-05 11:16:22.848 I/AuthorizationStrategyFactory:  [2020-03-05 08:16:22 - {"thread_id":"567","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Use browser for authorization. Android 28
+2020-03-05 11:16:22.849 I/MicrosoftStsOAuth2Strategy:createAuthorizationRequestBuilder:  [2020-03-05 08:16:22 - {"thread_id":"567","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Creating AuthorizationRequestBuilder Android 28
+2020-03-05 11:16:22.850 I/MicrosoftStsOAuth2Strategy:createAuthorizationRequestBuilder:  [2020-03-05 08:16:22 - {"thread_id":"567","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Creating AuthorizationRequestBuilder... Android 28
+2020-03-05 11:16:22.857 V/BrowserSelector:  [2020-03-05 08:16:22] Found 1 browsers. Android 28
+2020-03-05 11:16:22.858 V/BrowserSelector:  [2020-03-05 08:16:22 - {"thread_id":"567","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Select the browser to launch. Android 28
+2020-03-05 11:16:22.860 I/BrowserSelector:  [2020-03-05 08:16:22 - {"thread_id":"567","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Browser's package name: com.android.chrome version: 80.0.3987.99 Android 28
+2020-03-05 11:16:22.861 I/BrowserAuthorizationStrategy:requestAuthorization:  [2020-03-05 08:16:22 - {"thread_id":"567","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] CustomTabsService is supported. Android 28
+2020-03-05 11:16:22.864 I/CustomTabsManager:  [2020-03-05 08:16:22 - {"thread_id":"2","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] CustomTabsService is connected Android 28
+2020-03-05 11:16:22.976 V/AuthorizationFragment#onCreate:  [2020-03-05 08:16:22 - {"thread_id":"2","correlation_id":"5e6dbaad-e00e-4fbc-89f6-58f60367954f"}] Extract state from the intent bundle. Android 28
+2020-03-05 11:16:22.978 V/AuthorizationFragment:setDiagnosticContextForAuthorizationActivity:  [2020-03-05 08:16:22 - {"thread_id":"2","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Initializing diagnostic context for AuthorizationActivity Android 28
+2020-03-05 11:16:23.618 E/SensorManager: unregisterListenerImpl callingApp: tedee.mobile.debug,callingPid:10500,callingUid:10191
+2020-03-05 11:16:28.006 E/SensorManager: registerListenerImpl sensorName:LSM6DS3 Accelerometer,isWakeUpSensor:false,callingApp: tedee.mobile.debug,callingPid:10500,callingUid:10191
+2020-03-05 11:16:28.021 I/BrowserAuthorizationFragment:  [2020-03-05 08:16:28] Received redirect from customTab/browser. Android 28
+2020-03-05 11:16:28.023 I/BrowserAuthorizationFragment:  [2020-03-05 08:16:28 - {"thread_id":"2","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Sending intent to cancel authentication activity Android 28
+2020-03-05 11:16:28.026 I/AuthorizationFragment:  [2020-03-05 08:16:28 - {"thread_id":"2","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Sending result from Authorization Activity, resultCode: 2002 Android 28
+2020-03-05 11:16:28.034 V/LocalMSALController:completeAcquireToken:  [2020-03-05 08:16:28 - {"thread_id":"2","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Completing acquire token... Android 28
+2020-03-05 11:16:28.042 I/CustomTabsManager:  [2020-03-05 08:16:28 - {"thread_id":"2","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] CustomTabsService is unbound. Android 28
+2020-03-05 11:16:28.046 I/MicrosoftStsAuthorizationResultFactory:  [2020-03-05 08:16:28 - {"thread_id":"2","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Error is returned from webview redirect Android 28
+2020-03-05 11:16:28.047 W/LocalMSALController:MicrosoftStsAuthorizationResult:  [2020-03-05 08:16:28 - {"thread_id":"567","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Failure Result Android 28
+2020-03-05 11:16:28.047 W/LocalMSALController:MicrosoftStsAuthorizationResult:  [2020-03-05 08:16:28 - {"thread_id":"567","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Error: access_denied Android 28
+    
+    [          1583396188.048 10500:10576 I/LocalMSALController:MicrosoftStsAuthorizationResult:MicrosoftStsAuthorizationErrorRespo [2020-03-05 08:16:28 - {"thread_id":"567","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] {"mError":"access_denied","mErrorDescription":"AADB2C90118: The user has forgotten their password.\r\nCorrelation ID: 230ad84e-b4fe-4913-97dc-e5f1c65563ad\r\nTimestamp: 2020-03-05 08:16:22Z\r\n"} Android 28
+2020-03-05 11:16:28.049 I/LocalMSALController:MicrosoftStsAuthorizationResult:  [2020-03-05 08:16:28 - {"thread_id":"567","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Authorization Status: FAIL Android 28
+2020-03-05 11:16:28.050 I/SharedPreferencesLastRequestTelemetryCache:  [2020-03-05 08:16:28 - {"thread_id":"567","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Clearing all SharedPreferences entries... Android 28
+2020-03-05 11:16:28.054 I/SharedPreferencesLastRequestTelemetryCache:  [2020-03-05 08:16:28 - {"thread_id":"567","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] SharedPreferences cleared. Android 28
+2020-03-05 11:16:28.055 V/SharedPreferencesLastRequestTelemetryCache:  [2020-03-05 08:16:28 - {"thread_id":"567","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Saving Request Telemetry to cache... Android 28
+2020-03-05 11:16:28.055 E/LoginPresenter$onForgotPassword: com.microsoft.identity.client.exception.MsalServiceException: access_denied;AADB2C90118: The user has forgotten their password.
+    Correlation ID: 230ad84e-b4fe-4913-97dc-e5f1c65563ad
+    Timestamp: 2020-03-05 08:16:22Z
+    
+        at com.microsoft.identity.client.internal.controllers.MsalExceptionAdapter.msalExceptionFromBaseException(MsalExceptionAdapter.java:74)
+        at com.microsoft.identity.client.SingleAccountPublicClientApplication$3.onError(SingleAccountPublicClientApplication.java:241)
+        at com.microsoft.identity.client.SingleAccountPublicClientApplication$3.onError(SingleAccountPublicClientApplication.java:213)
+        at com.microsoft.identity.common.internal.controllers.CommandDispatcher$3$5.run(CommandDispatcher.java:365)
+        at android.os.Handler.handleCallback(Handler.java:873)
+        at android.os.Handler.dispatchMessage(Handler.java:99)
+        at android.os.Looper.loop(Looper.java:193)
+        at android.app.ActivityThread.main(ActivityThread.java:6863)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:537)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+     Caused by: com.microsoft.identity.common.exception.ServiceException: access_denied;AADB2C90118: The user has forgotten their password.
+    Correlation ID: 230ad84e-b4fe-4913-97dc-e5f1c65563ad
+    Timestamp: 2020-03-05 08:16:22Z
+    
+        at com.microsoft.identity.common.internal.controllers.ExceptionAdapter.exceptionFromAcquireTokenResult(ExceptionAdapter.java:85)
+        at com.microsoft.identity.common.internal.controllers.CommandDispatcher$3.run(CommandDispatcher.java:351)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+        at java.lang.Thread.run(Thread.java:764)
+2020-03-05 11:16:28.060 D/LoginActivity: LoginViewState changed. New=ShowError(messageText=access_denied;AADB2C90118: The user has forgotten their password.
+    Correlation ID: 230ad84e-b4fe-4913-97dc-e5f1c65563ad
+    Timestamp: 2020-03-05 08:16:22Z
+    )
+2020-03-05 11:16:28.061 E/PublicClientApplicationExtensionKt$signOutClient: com.microsoft.identity.client.exception.MsalClientException: 
+        at com.microsoft.identity.client.SingleAccountPublicClientApplication.signOutInternal(SingleAccountPublicClientApplication.java:278)
+        at com.microsoft.identity.client.SingleAccountPublicClientApplication.signOut(SingleAccountPublicClientApplication.java:271)
+        at pl.predica.nofo.common.azureb2c.extensions.PublicClientApplicationExtensionKt$signOutClient$1.subscribe(PublicClientApplicationExtension.kt:11)
+        at io.reactivex.internal.operators.completable.CompletableCreate.subscribeActual(CompletableCreate.java:39)
+        at io.reactivex.Completable.subscribe(Completable.java:2309)
+        at io.reactivex.internal.operators.completable.CompletableOnErrorComplete.subscribeActual(CompletableOnErrorComplete.java:35)
+        at io.reactivex.Completable.subscribe(Completable.java:2309)
+        at io.reactivex.internal.operators.single.SingleFlatMapCompletable$FlatMapCompletableObserver.onSuccess(SingleFlatMapCompletable.java:91)
+        at io.reactivex.internal.operators.single.SingleJust.subscribeActual(SingleJust.java:30)
+        at io.reactivex.Single.subscribe(Single.java:3666)
+        at io.reactivex.internal.operators.single.SingleFlatMapCompletable.subscribeActual(SingleFlatMapCompletable.java:44)
+        at io.reactivex.Completable.subscribe(Completable.java:2309)
+        at io.reactivex.internal.operators.completable.CompletableAndThenCompletable$SourceObserver.onComplete(CompletableAndThenCompletable.java:67)
+        at io.reactivex.internal.operators.completable.CompletableFromCallable.subscribeActual(CompletableFromCallable.java:47)
+        at io.reactivex.Completable.subscribe(Completable.java:2309)
+        at io.reactivex.internal.operators.completable.CompletableAndThenCompletable.subscribeActual(CompletableAndThenCompletable.java:35)
+        at io.reactivex.Completable.subscribe(Completable.java:2309)
+        at io.reactivex.internal.operators.completable.CompletableOnErrorComplete.subscribeActual(CompletableOnErrorComplete.java:35)
+        at io.reactivex.Completable.subscribe(Completable.java:2309)
+        at io.reactivex.internal.operators.completable.CompletableSubscribeOn$SubscribeOnObserver.run(CompletableSubscribeOn.java:64)
+        at io.reactivex.Scheduler$DisposeTask.run(Scheduler.java:578)
+        at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+        at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+        at java.lang.Thread.run(Thread.java:764)
+2020-03-05 11:16:28.104 I/Adreno: QUALCOMM build                   : 365e321, I294de8bafa
+    Build Date                       : 01/08/19
+    OpenGL ES Shader Compiler Version: EV031.25.03.02
+    Local Branch                     : 
+    Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.7.5.R1.09.00.00.464.040
+    Remote Branch                    : NONE
+    Reconstruct Branch               : NOTHING
+2020-03-05 11:16:28.104 I/Adreno: Build Config                     : S L 6.0.7 AArch64
+2020-03-05 11:16:28.108 D/vndksupport: Loading /vendor/lib64/hw/gralloc.msm8996.so from current namespace instead of sphal namespace.
+2020-03-05 11:16:28.112 I/Adreno: PFP: 0x005ff110, ME: 0x005ff066
+2020-03-05 11:16:28.114 I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+2020-03-05 11:16:28.114 I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+2020-03-05 11:16:28.115 I/OpenGLRenderer: Initialized EGL, version 1.4
+2020-03-05 11:16:28.115 D/OpenGLRenderer: Swap behavior 2
+2020-03-05 11:16:28.599 I/AuthorizationFragment#onDestroy:  [2020-03-05 08:16:28 - {"thread_id":"2","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] N/A Android 28
+2020-03-05 11:16:31.353 I/CommandDispatcher:beginInteractive:  [2020-03-05 08:16:31 - {"thread_id":"566","correlation_id":"UNSET"}] Beginning interactive request Android 28
+2020-03-05 11:16:31.357 V/CommandDispatcher:initializeDiagnosticContext:  [2020-03-05 08:16:31 - {"thread_id":"567","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Initialized new DiagnosticContext Android 28
+2020-03-05 11:16:31.359 I/CommandDispatcher:beginInteractive:  [2020-03-05 08:16:31 - {"thread_id":"567","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Requested 1 scopes Android 28
+2020-03-05 11:16:31.365 I/CommandDispatcher:beginInteractive:  [2020-03-05 08:16:31 - {"thread_id":"567","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Using authorization agent: DEFAULT Android 28
+2020-03-05 11:16:31.366 I/InteractiveTokenCommand:execute:  [2020-03-05 08:16:31 - {"thread_id":"567","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Executing interactive token command... Android 28
+2020-03-05 11:16:31.367 V/LocalMSALController:acquireToken:  [2020-03-05 08:16:31 - {"thread_id":"567","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Acquiring token... Android 28
+2020-03-05 11:16:31.369 V/OperationParameters:validate:  [2020-03-05 08:16:31 - {"thread_id":"567","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Validating operation params... Android 28
+2020-03-05 11:16:31.375 I/LocalMSALController:AcquireTokenOperationParameters:  [2020-03-05 08:16:31 - {"thread_id":"567","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] {"mAuthorizationAgent":"DEFAULT","mExtraScopesToConsent":[],"mOpenIdConnectPromptParameter":"SELECT_ACCOUNT","webViewZoomControlsEnabled":true,"webViewZoomEnabled":true,"clientId":"d957d40e-0b1a-4495-8f23-e449c916a533","mApplicationName":"tedee.mobile.debug","mApplicationVersion":"2-debug","mAuthenticationScheme":{},"mAuthority":{},"mForceRefresh":false,"mScopes":["https://nofodev2c.onmicrosoft.com/api/user_impersonation","openid","offline_access","profile"],"mSdkType":"MSAL","mSdkVersion":"1.4.0","redirectUri":"msald957d40e-0b1a-4495-8f23-e449c916a533://auth"} Android 28
+2020-03-05 11:16:31.378 V/Authority:getKnownAuthorityResult:  [2020-03-05 08:16:31 - {"thread_id":"567","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Getting known authority result... Android 28
+2020-03-05 11:16:31.379 V/Authority:getKnownAuthorityResult:  [2020-03-05 08:16:31 - {"thread_id":"567","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Performing cloud discovery Android 28
+2020-03-05 11:16:31.381 V/Authority:performCloudDiscovery:  [2020-03-05 08:16:31 - {"thread_id":"567","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Performing cloud discovery... Android 28
+2020-03-05 11:16:31.383 V/Authority:isKnownAuthority:  [2020-03-05 08:16:31 - {"thread_id":"567","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Authority is known to developer? [true] Android 28
+2020-03-05 11:16:31.384 V/Authority:isKnownAuthority:  [2020-03-05 08:16:31 - {"thread_id":"567","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Authority is known to Microsoft? [false] Android 28
+    
+    [          1583396191.385 10500:10576 V/com.microsoft.identity.common.internal.authorities.AzureActiveDirectoryB2CAuthority:cre [2020-03-05 08:16:31 - {"thread_id":"567","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Creating OAuth2Configuration Android 28
+2020-03-05 11:16:31.388 I/OpenIdProviderConfigurationClient:loadOpenIdProviderConfiguration:  [2020-03-05 08:16:31 - {"thread_id":"567","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Using cached metadata result. Android 28
+2020-03-05 11:16:31.397 V/BrowserSelector:  [2020-03-05 08:16:31] Found 1 browsers. Android 28
+2020-03-05 11:16:31.405 V/BrowserSelector:  [2020-03-05 08:16:31] Found 1 browsers. Android 28
+2020-03-05 11:16:31.406 V/BrowserSelector:  [2020-03-05 08:16:31 - {"thread_id":"567","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Select the browser to launch. Android 28
+2020-03-05 11:16:31.407 I/BrowserSelector:  [2020-03-05 08:16:31 - {"thread_id":"567","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Browser's package name: com.android.chrome version: 80.0.3987.99 Android 28
+2020-03-05 11:16:31.408 I/AuthorizationStrategyFactory:  [2020-03-05 08:16:31 - {"thread_id":"567","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Use browser for authorization. Android 28
+2020-03-05 11:16:31.409 I/MicrosoftStsOAuth2Strategy:createAuthorizationRequestBuilder:  [2020-03-05 08:16:31 - {"thread_id":"567","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Creating AuthorizationRequestBuilder Android 28
+2020-03-05 11:16:31.409 I/MicrosoftStsOAuth2Strategy:createAuthorizationRequestBuilder:  [2020-03-05 08:16:31 - {"thread_id":"567","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Creating AuthorizationRequestBuilder... Android 28
+2020-03-05 11:16:31.416 V/BrowserSelector:  [2020-03-05 08:16:31] Found 1 browsers. Android 28
+2020-03-05 11:16:31.416 V/BrowserSelector:  [2020-03-05 08:16:31 - {"thread_id":"567","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Select the browser to launch. Android 28
+2020-03-05 11:16:31.417 I/BrowserSelector:  [2020-03-05 08:16:31 - {"thread_id":"567","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Browser's package name: com.android.chrome version: 80.0.3987.99 Android 28
+2020-03-05 11:16:31.418 I/BrowserAuthorizationStrategy:requestAuthorization:  [2020-03-05 08:16:31 - {"thread_id":"567","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] CustomTabsService is supported. Android 28
+2020-03-05 11:16:31.427 I/CustomTabsManager:  [2020-03-05 08:16:31 - {"thread_id":"2","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] CustomTabsService is connected Android 28
+2020-03-05 11:16:31.466 W/ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@cbbcd7e
+2020-03-05 11:16:31.496 V/AuthorizationFragment#onCreate:  [2020-03-05 08:16:31 - {"thread_id":"2","correlation_id":"642d105b-da5c-4c89-a96c-a830bf4cd01e"}] Extract state from the intent bundle. Android 28
+2020-03-05 11:16:31.497 V/AuthorizationFragment:setDiagnosticContextForAuthorizationActivity:  [2020-03-05 08:16:31 - {"thread_id":"2","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Initializing diagnostic context for AuthorizationActivity Android 28
+2020-03-05 11:16:32.191 E/SensorManager: unregisterListenerImpl callingApp: tedee.mobile.debug,callingPid:10500,callingUid:10191
+2020-03-05 11:16:33.316 E/SensorManager: registerListenerImpl sensorName:LSM6DS3 Accelerometer,isWakeUpSensor:false,callingApp: tedee.mobile.debug,callingPid:10500,callingUid:10191
+2020-03-05 11:16:33.331 I/BrowserAuthorizationFragment:  [2020-03-05 08:16:33] Received redirect from customTab/browser. Android 28
+2020-03-05 11:16:33.336 I/BrowserAuthorizationFragment:  [2020-03-05 08:16:33 - {"thread_id":"2","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Sending intent to cancel authentication activity Android 28
+2020-03-05 11:16:33.337 I/AuthorizationFragment:  [2020-03-05 08:16:33 - {"thread_id":"2","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Sending result from Authorization Activity, resultCode: 2002 Android 28
+2020-03-05 11:16:33.348 V/LocalMSALController:completeAcquireToken:  [2020-03-05 08:16:33 - {"thread_id":"2","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Completing acquire token... Android 28
+2020-03-05 11:16:33.353 I/CustomTabsManager:  [2020-03-05 08:16:33 - {"thread_id":"2","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] CustomTabsService is unbound. Android 28
+2020-03-05 11:16:33.354 I/MicrosoftStsAuthorizationResultFactory:  [2020-03-05 08:16:33 - {"thread_id":"2","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Error is returned from webview redirect Android 28
+2020-03-05 11:16:33.356 W/LocalMSALController:MicrosoftStsAuthorizationResult:  [2020-03-05 08:16:33 - {"thread_id":"567","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Failure Result Android 28
+2020-03-05 11:16:33.358 W/LocalMSALController:MicrosoftStsAuthorizationResult:  [2020-03-05 08:16:33 - {"thread_id":"567","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Error: access_denied Android 28
+2020-03-05 11:16:33.364 I/LocalMSALController:MicrosoftStsAuthorizationResult:  [2020-03-05 08:16:33 - {"thread_id":"567","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Authorization Status: FAIL Android 28
+2020-03-05 11:16:33.369 E/LoginPresenter$signIn: com.microsoft.identity.client.exception.MsalServiceException: access_denied;AADB2C90118: The user has forgotten their password.
+    Correlation ID: 230ad84e-b4fe-4913-97dc-e5f1c65563ad
+    Timestamp: 2020-03-05 08:16:22Z
+    
+        at com.microsoft.identity.client.internal.controllers.MsalExceptionAdapter.msalExceptionFromBaseException(MsalExceptionAdapter.java:74)
+        at com.microsoft.identity.client.SingleAccountPublicClientApplication$3.onError(SingleAccountPublicClientApplication.java:241)
+        at com.microsoft.identity.client.SingleAccountPublicClientApplication$3.onError(SingleAccountPublicClientApplication.java:213)
+        at com.microsoft.identity.common.internal.controllers.CommandDispatcher$3$5.run(CommandDispatcher.java:365)
+        at android.os.Handler.handleCallback(Handler.java:873)
+        at android.os.Handler.dispatchMessage(Handler.java:99)
+        at android.os.Looper.loop(Looper.java:193)
+        at android.app.ActivityThread.main(ActivityThread.java:6863)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:537)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+     Caused by: com.microsoft.identity.common.exception.ServiceException: access_denied;AADB2C90118: The user has forgotten their password.
+    Correlation ID: 230ad84e-b4fe-4913-97dc-e5f1c65563ad
+    Timestamp: 2020-03-05 08:16:22Z
+    
+        at com.microsoft.identity.common.internal.controllers.ExceptionAdapter.exceptionFromAcquireTokenResult(ExceptionAdapter.java:85)
+        at com.microsoft.identity.common.internal.controllers.CommandDispatcher$3.run(CommandDispatcher.java:351)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+        at java.lang.Thread.run(Thread.java:764)
+2020-03-05 11:16:33.370 I/SharedPreferencesLastRequestTelemetryCache:  [2020-03-05 08:16:33 - {"thread_id":"567","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Clearing all SharedPreferences entries... Android 28
+2020-03-05 11:16:33.380 I/SharedPreferencesLastRequestTelemetryCache:  [2020-03-05 08:16:33 - {"thread_id":"567","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] SharedPreferences cleared. Android 28
+2020-03-05 11:16:33.382 V/SharedPreferencesLastRequestTelemetryCache:  [2020-03-05 08:16:33 - {"thread_id":"567","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Saving Request Telemetry to cache... Android 28
+2020-03-05 11:16:33.391 I/Adreno: QUALCOMM build                   : 365e321, I294de8bafa
+    Build Date                       : 01/08/19
+    OpenGL ES Shader Compiler Version: EV031.25.03.02
+    Local Branch                     : 
+    Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.7.5.R1.09.00.00.464.040
+    Remote Branch                    : NONE
+    Reconstruct Branch               : NOTHING
+2020-03-05 11:16:33.391 I/Adreno: Build Config                     : S L 6.0.7 AArch64
+2020-03-05 11:16:33.394 D/vndksupport: Loading /vendor/lib64/hw/gralloc.msm8996.so from current namespace instead of sphal namespace.
+2020-03-05 11:16:33.396 I/Adreno: PFP: 0x005ff110, ME: 0x005ff066
+2020-03-05 11:16:33.397 I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+2020-03-05 11:16:33.397 I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+2020-03-05 11:16:33.398 I/OpenGLRenderer: Initialized EGL, version 1.4
+2020-03-05 11:16:33.398 D/OpenGLRenderer: Swap behavior 2
+2020-03-05 11:16:33.585 I/CommandDispatcher:beginInteractive:  [2020-03-05 08:16:33 - {"thread_id":"566","correlation_id":"UNSET"}] Beginning interactive request Android 28
+2020-03-05 11:16:33.587 V/CommandDispatcher:initializeDiagnosticContext:  [2020-03-05 08:16:33 - {"thread_id":"567","correlation_id":"922fda71-f7d7-4d39-93cc-ec868002279b"}] Initialized new DiagnosticContext Android 28
+2020-03-05 11:16:33.588 I/CommandDispatcher:beginInteractive:  [2020-03-05 08:16:33 - {"thread_id":"567","correlation_id":"922fda71-f7d7-4d39-93cc-ec868002279b"}] Requested 1 scopes Android 28
+2020-03-05 11:16:33.592 I/CommandDispatcher:beginInteractive:  [2020-03-05 08:16:33 - {"thread_id":"567","correlation_id":"922fda71-f7d7-4d39-93cc-ec868002279b"}] Using authorization agent: DEFAULT Android 28
+2020-03-05 11:16:33.598 I/InteractiveTokenCommand:execute:  [2020-03-05 08:16:33 - {"thread_id":"567","correlation_id":"922fda71-f7d7-4d39-93cc-ec868002279b"}] Executing interactive token command... Android 28
+2020-03-05 11:16:33.599 V/LocalMSALController:acquireToken:  [2020-03-05 08:16:33 - {"thread_id":"567","correlation_id":"922fda71-f7d7-4d39-93cc-ec868002279b"}] Acquiring token... Android 28
+2020-03-05 11:16:33.600 V/OperationParameters:validate:  [2020-03-05 08:16:33 - {"thread_id":"567","correlation_id":"922fda71-f7d7-4d39-93cc-ec868002279b"}] Validating operation params... Android 28
+2020-03-05 11:16:33.619 I/LocalMSALController:AcquireTokenOperationParameters:  [2020-03-05 08:16:33 - {"thread_id":"567","correlation_id":"922fda71-f7d7-4d39-93cc-ec868002279b"}] {"mAuthorizationAgent":"DEFAULT","mExtraScopesToConsent":[],"mOpenIdConnectPromptParameter":"SELECT_ACCOUNT","webViewZoomControlsEnabled":true,"webViewZoomEnabled":true,"clientId":"d957d40e-0b1a-4495-8f23-e449c916a533","mApplicationName":"tedee.mobile.debug","mApplicationVersion":"2-debug","mAuthenticationScheme":{},"mAuthority":{},"mForceRefresh":false,"mScopes":["https://nofodev2c.onmicrosoft.com/api/user_impersonation","openid","offline_access","profile"],"mSdkType":"MSAL","mSdkVersion":"1.4.0","redirectUri":"msald957d40e-0b1a-4495-8f23-e449c916a533://auth"} Android 28
+2020-03-05 11:16:33.623 V/Authority:getKnownAuthorityResult:  [2020-03-05 08:16:33 - {"thread_id":"567","correlation_id":"922fda71-f7d7-4d39-93cc-ec868002279b"}] Getting known authority result... Android 28
+2020-03-05 11:16:33.625 V/Authority:getKnownAuthorityResult:  [2020-03-05 08:16:33 - {"thread_id":"567","correlation_id":"922fda71-f7d7-4d39-93cc-ec868002279b"}] Performing cloud discovery Android 28
+2020-03-05 11:16:33.627 V/Authority:performCloudDiscovery:  [2020-03-05 08:16:33 - {"thread_id":"567","correlation_id":"922fda71-f7d7-4d39-93cc-ec868002279b"}] Performing cloud discovery... Android 28
+2020-03-05 11:16:33.630 V/Authority:isKnownAuthority:  [2020-03-05 08:16:33 - {"thread_id":"567","correlation_id":"922fda71-f7d7-4d39-93cc-ec868002279b"}] Authority is known to developer? [true] Android 28
+2020-03-05 11:16:33.633 V/Authority:isKnownAuthority:  [2020-03-05 08:16:33 - {"thread_id":"567","correlation_id":"922fda71-f7d7-4d39-93cc-ec868002279b"}] Authority is known to Microsoft? [false] Android 28
+    
+    [          1583396193.635 10500:10576 V/com.microsoft.identity.common.internal.authorities.AzureActiveDirectoryB2CAuthority:cre [2020-03-05 08:16:33 - {"thread_id":"567","correlation_id":"922fda71-f7d7-4d39-93cc-ec868002279b"}] Creating OAuth2Configuration Android 28
+2020-03-05 11:16:33.636 I/OpenIdProviderConfigurationClient:loadOpenIdProviderConfiguration:  [2020-03-05 08:16:33 - {"thread_id":"567","correlation_id":"922fda71-f7d7-4d39-93cc-ec868002279b"}] Using cached metadata result. Android 28
+2020-03-05 11:16:33.641 V/BrowserSelector:  [2020-03-05 08:16:33] Found 1 browsers. Android 28
+2020-03-05 11:16:33.651 V/BrowserSelector:  [2020-03-05 08:16:33] Found 1 browsers. Android 28
+2020-03-05 11:16:33.651 V/BrowserSelector:  [2020-03-05 08:16:33 - {"thread_id":"567","correlation_id":"922fda71-f7d7-4d39-93cc-ec868002279b"}] Select the browser to launch. Android 28
+2020-03-05 11:16:33.652 I/BrowserSelector:  [2020-03-05 08:16:33 - {"thread_id":"567","correlation_id":"922fda71-f7d7-4d39-93cc-ec868002279b"}] Browser's package name: com.android.chrome version: 80.0.3987.99 Android 28
+2020-03-05 11:16:33.653 I/AuthorizationStrategyFactory:  [2020-03-05 08:16:33 - {"thread_id":"567","correlation_id":"922fda71-f7d7-4d39-93cc-ec868002279b"}] Use browser for authorization. Android 28
+2020-03-05 11:16:33.654 I/MicrosoftStsOAuth2Strategy:createAuthorizationRequestBuilder:  [2020-03-05 08:16:33 - {"thread_id":"567","correlation_id":"922fda71-f7d7-4d39-93cc-ec868002279b"}] Creating AuthorizationRequestBuilder Android 28
+2020-03-05 11:16:33.655 I/MicrosoftStsOAuth2Strategy:createAuthorizationRequestBuilder:  [2020-03-05 08:16:33 - {"thread_id":"567","correlation_id":"922fda71-f7d7-4d39-93cc-ec868002279b"}] Creating AuthorizationRequestBuilder... Android 28
+2020-03-05 11:16:33.665 V/BrowserSelector:  [2020-03-05 08:16:33] Found 1 browsers. Android 28
+2020-03-05 11:16:33.667 V/BrowserSelector:  [2020-03-05 08:16:33 - {"thread_id":"567","correlation_id":"922fda71-f7d7-4d39-93cc-ec868002279b"}] Select the browser to launch. Android 28
+2020-03-05 11:16:33.668 I/BrowserSelector:  [2020-03-05 08:16:33 - {"thread_id":"567","correlation_id":"922fda71-f7d7-4d39-93cc-ec868002279b"}] Browser's package name: com.android.chrome version: 80.0.3987.99 Android 28
+2020-03-05 11:16:33.669 I/BrowserAuthorizationStrategy:requestAuthorization:  [2020-03-05 08:16:33 - {"thread_id":"567","correlation_id":"922fda71-f7d7-4d39-93cc-ec868002279b"}] CustomTabsService is supported. Android 28
+2020-03-05 11:16:33.672 I/CustomTabsManager:  [2020-03-05 08:16:33 - {"thread_id":"2","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] CustomTabsService is connected Android 28
+2020-03-05 11:16:33.714 W/ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@ab86425
+2020-03-05 11:16:33.761 V/AuthorizationFragment#onCreate:  [2020-03-05 08:16:33 - {"thread_id":"2","correlation_id":"1e4d1666-0e9d-49bd-a1a8-7396e5789f1c"}] Extract state from the intent bundle. Android 28
+2020-03-05 11:16:33.763 V/AuthorizationFragment:setDiagnosticContextForAuthorizationActivity:  [2020-03-05 08:16:33 - {"thread_id":"2","correlation_id":"922fda71-f7d7-4d39-93cc-ec868002279b"}] Initializing diagnostic context for AuthorizationActivity Android 28
+2020-03-05 11:16:34.458 E/SensorManager: unregisterListenerImpl callingApp: tedee.mobile.debug,callingPid:10500,callingUid:10191
+2020-03-05 11:16:34.471 I/AuthorizationFragment#onDestroy:  [2020-03-05 08:16:34 - {"thread_id":"2","correlation_id":"922fda71-f7d7-4d39-93cc-ec868002279b"}] N/A Android 28
